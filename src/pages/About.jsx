@@ -4,10 +4,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 
 const teamImages = [
-  import.meta.env.BASE_URL + 'team/grp3.jpg',
-  import.meta.env.BASE_URL + 'team/grp1.jpg',
-  import.meta.env.BASE_URL + 'team/grp2.jpg',
-  import.meta.env.BASE_URL + 'team/grp4.jpg'
+  '/team/grp3.jpg',
+  '/team/grp1.jpg',
+  '/team/grp2.jpg',
+  '/team/grp4.jpg'
 ];
 
 
