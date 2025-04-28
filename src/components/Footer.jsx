@@ -7,8 +7,8 @@ export default function Footer() {
   const isHomePage = location.pathname === '/';
   return (
     <footer className={isHomePage ? 'footer home-footer' : 'footer'}>
-      <p>&copy; {currentYear} HealTech. All rights reserved.</p>
-      <p>Contact: <a href="mailto:info@healtech.com">info@healtech.com</a></p>
+      <p>&copy; {currentYear} NovaHealZ. All rights reserved.</p>
+      <p>Contact: <a href="mailto:info@healtech.com">info@novahealz.com</a></p>
     </footer>
   );
 }
