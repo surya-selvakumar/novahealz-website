@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route, useLocation, HashRouter } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -14,14 +14,13 @@ import Blog from './pages/Blog';
 import CodeOfConduct from './pages/CodeOfConduct';
 import Achievements from './pages/Achievements';
 
-
-function App() {
+// Inner app layout to preserve useLocation()
+function AnimatedRoutes() {
   const location = useLocation();
   return (
     <>
       <Header />
       <ScrollToTop />
-      {/* AnimatePresence enables page transition animations */}
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<Home />} />
@@ -40,4 +39,11 @@ function App() {
   );
 }
 
-export default App;
+// Wrap everything in HashRouter
+export default function App() {
+  return (
+    <HashRouter>
+      <AnimatedRoutes />
+    </HashRouter>
+  );
+}
