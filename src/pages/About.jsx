@@ -55,7 +55,7 @@ export default function About() {
             Our Vision
           </motion.h2>
           <p style={{ fontSize: '1rem', color: '#666', lineHeight: '1.7' }}>
-            To be the global leader in advancing wound care through patient-centric, sustainable innovation.
+            To revolutionize wound care through innovative, sustainable, and accessible solutions globally.
           </p>
 
           <motion.h2 initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6, delay: 0.4 }}
@@ -63,7 +63,7 @@ export default function About() {
             Our Mission
           </motion.h2>
           <p style={{ fontSize: '1rem', color: '#666', lineHeight: '1.7' }}>
-            Delivering breakthrough wound care technologies that prioritize patient outcomes, sustainability, and accessibility for communities worldwide.
+            To deliver fast-healing, eco-friendly, and affordable wound care products for all.
           </p>
         </div>
 
@@ -110,7 +110,7 @@ export default function About() {
           <ul style={{ listStyle: 'none', padding: 0, display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem' }}>
             {[
               { title: 'Patient-First Innovation', desc: 'Every decision we make focuses on patient well-being.' },
-              { title: 'Excellence', desc: 'Striving for world-class research, product quality, and services.' },
+              { title: 'Accessibility & Affordability', desc: 'Striving for world-class research, product quality, and services.' },
               { title: 'Honesty & Transparency', desc: 'Commitment to clear and open communication with stakeholders.' },
               { title: 'Respect for All', desc: 'Fostering diversity, inclusion, and collaboration across teams.' },
               { title: 'Courage to Question', desc: 'Encouraging constructive debate and innovation.' },
@@ -160,14 +160,14 @@ export default function About() {
             alignItems: 'stretch'
           }}>
             {[
-              { img: '/team/akash.jpeg', name: 'Akash Pande Rajeskumar', role: 'Founder & CEO' },
+              { img: '/team/akash.jpeg', name: 'Akash Pande Rajeshkumar', role: 'Founder & Chief Executive Officer and Head of Ethics & Compliance' },
               { img: '/team/mrinal.jpeg', name: 'Mrinal Tripathi', role: 'Chief Operations Officer & Head of Sustainability' },
               { img: '/team/thendral.jpeg', name: 'Elanthendral Gopalsami', role: 'Chief Finance & Human Resource Officer ' },
               { img: '/team/aayushi.jpeg', name: 'Aayushi Kasture', role: 'Chief Scientific Officer' },
               { img: '/team/leanne.jpeg', name: 'Leanne Fernandes', role: 'Chief Commercial & Global Corporate Affairs Officer ' },
               { img: '/team/sayan.jpeg', name: 'Sayan Ghosh', role: 'Chief Marketing & Business Development Officer ' },
               { img: '/team/surya.jpg', name: 'Surya Selvakumar', role: 'Chief Data & Technology Officer ' },
-              { img: '/team/neha.jpeg', name: 'Neha M Mohan', role: 'Chief Administrative Officer' }
+              { img: '/team/neha.jpeg', name: 'Nekha M Mohan', role: 'Chief Administrative Officer' }
             ].map((leader, idx) => (
               <motion.div key={idx}
                 initial={{ opacity: 0, y: 20 }}

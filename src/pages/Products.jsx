@@ -58,7 +58,7 @@ export default function Products() {
                 marginBottom: '1rem'
               }} />
               <h3 style={{ color: '#003366', marginBottom: '0.5rem' }}>
-                BeemaShield <small style={{ color: '#999' }}>(name subject to change)</small>
+                HydroShield <small style={{ color: '#999' }}>(name subject to change)</small>
               </h3>
               <p style={{ fontSize: '0.95rem', color: '#555' }}>
                 A next-generation wound dressing designed for diabetic foot ulcer care, providing enhanced protection and healing support.

@@ -150,6 +150,7 @@ export default function Responsibility() {
             <li><strong>SDG 3 (Good Health and Well-being):</strong> Ensuring universal healthcare access by 2030.</li>
             <li><strong>SDG 5 (Gender Equality):</strong> Achieving equal gender representation by 2030.</li>
             <li><strong>SDG 8 (Decent Work and Economic Growth):</strong> Creating inclusive, safe workplaces.</li>
+            <li><strong>SDG 12 (Responsible Consumption and Production):</strong> We pledge to use and produce in sustainable methods and prevent any harm to the planet. We aim to implement a sustainable consumption and production framework and reduce waste generation. We will report sustainability</li>
             <li><strong>SDG 13 (Climate Action):</strong> Reducing carbon footprint through sustainable operations.</li>
             <li><strong>SDG 15 (Life on Land):</strong> Protecting ecosystems and preventing biodiversity loss.</li>
           </ul>
