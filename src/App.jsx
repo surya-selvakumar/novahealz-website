@@ -12,6 +12,8 @@ import Responsibility from './pages/Responsibility';
 import Investors from './pages/Investors';
 import Blog from './pages/Blog';
 import CodeOfConduct from './pages/CodeOfConduct';
+import Achievements from './pages/Achievements';
+
 
 function App() {
   const location = useLocation();
@@ -27,6 +29,7 @@ function App() {
           <Route path="/products" element={<Products />} />
           <Route path="/research" element={<Research />} />
           <Route path="/responsibility" element={<Responsibility />} />
+          <Route path="/achievements" element={<Achievements />} />
           <Route path="/investors" element={<Investors />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/code-of-conduct" element={<CodeOfConduct />} />

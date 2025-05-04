@@ -37,7 +37,7 @@ export default function Investors() {
           <strong>Coming Soon:</strong> Financial updates, presentations, and governance information.
         </motion.p>
 
-        <motion.p
+        {/* <motion.p
           style={{ marginTop: '2rem', fontSize: '1rem', color: '#555' }}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -46,7 +46,7 @@ export default function Investors() {
           Investor inquiries: <a href="mailto:investors@healtech.com" style={{ color: '#0066cc', textDecoration: 'underline' }}>
             investors@healtech.com
           </a>
-        </motion.p>
+        </motion.p> */}
       </section>
     </motion.div>
   );

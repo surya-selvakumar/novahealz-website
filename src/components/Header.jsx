@@ -24,6 +24,7 @@ export default function Header() {
         <NavLink to="/products" onClick={() => setMenuOpen(false)}>Products</NavLink>
         <NavLink to="/research" onClick={() => setMenuOpen(false)}>Research</NavLink>
         <NavLink to="/responsibility" onClick={() => setMenuOpen(false)}>Responsibility</NavLink>
+        <NavLink to="/achievements" onClick={() => setMenuOpen(false)}>Achievements</NavLink>
         <NavLink to="/investors" onClick={() => setMenuOpen(false)}>Investors</NavLink>
         <NavLink to="/blog" onClick={() => setMenuOpen(false)}>Blog</NavLink>
         <NavLink to="/code-of-conduct" onClick={() => setMenuOpen(false)}>Code of Conduct</NavLink>

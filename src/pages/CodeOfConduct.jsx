@@ -43,12 +43,12 @@ export default function CodeOfConduct() {
             <li>Commitment to safety, quality, and patient well-being.</li>
           </motion.ul>
 
-          <p style={{ marginTop: '2rem', fontSize: '1rem', color: '#555', textAlign: 'center' }}>
+          {/* <p style={{ marginTop: '2rem', fontSize: '1rem', color: '#555', textAlign: 'center' }}>
             <a href="/code_of_conduct_v1.pdf" target="_blank" rel="noopener noreferrer"
               style={{ color: '#0066cc', textDecoration: 'underline', fontWeight: '600' }}>
               📄 Download Full Code of Conduct (PDF)
             </a>
-          </p>
+          </p> */}
         </div>
       </section>
     </motion.div>

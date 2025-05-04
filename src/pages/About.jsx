@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 
 const teamImages = [
-  '/team/grp3.jpg',
+  '/team/grp7.jpg',
   '/team/grp1.jpg',
   '/team/grp2.jpg',
   '/team/grp4.jpg'
@@ -88,11 +88,12 @@ export default function About() {
               style={{
                 width: '100%',
                 height: '100%',
-                objectFit: 'cover',
+                objectFit: teamImages[currentImage].includes('grp7') ? 'contain' : 'cover',
                 borderRadius: '12px',
                 position: 'absolute',
                 top: 0,
-                left: 0
+                left: 0,
+                background: '#000'
               }}
             />
           </AnimatePresence>
@@ -134,11 +135,30 @@ export default function About() {
       <section style={{ background: '#ffffff', padding: '4rem 2rem' }}>
         <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
           <motion.h2 initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6 }}
-            style={{ color: '#003366', fontSize: '2rem', marginBottom: '1rem' }}>
+            style={{ color: '#003366', fontSize: '2rem', marginBottom: '1rem', textAlign: 'center' }}>
             Our Story
           </motion.h2>
+          <motion.h2 initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.6 }}
+            style={{ color: '#003366', fontSize: '1.5rem', marginBottom: '1rem', textAlign: 'center'}}>
+            NovaHealZ: A Story of Purpose and Innovation
+          </motion.h2>
           <p style={{ fontSize: '1rem', color: '#666', lineHeight: '1.7' }}>
-            Founded in 2024, NovaHealz emerged with a passion to revolutionize wound care. Today, our interdisciplinary teams of innovators, scientists, and clinicians are dedicated to advancing the science of healing through patient-centered solutions.
+          NovaHealZ was founded by Akash Pande Rajeshkumar, whose journey into the field of
+          wound care began with a deeply personal experience. His grandfather, a long-time
+          diabetic, was suddenly diagnosed with a diabetic foot ulcer. A small wound on his toe,
+          which failed to heal for months, severely impacted his ability to walk, leading to
+          prolonged suffering. This difficult experience sparked a deep sense of responsibility in
+          Akash to find a solution for diabetic foot ulcers, which are a growing concern in diabetes
+          management.
+          Akash’s search for better healing solutions led him to dedicate a year of intense research
+          and experimentation, developing a unique wound care product specifically designed to
+          accelerate healing in diabetic foot ulcers.
+          With support from his close-knit group of friends, who are now all C-level executives
+          within the company, NovaHealZ was officially born. The founding team benefited from
+          invaluable mentorship and guidance from the University of Glasgow’s Enterprise team,
+          which helped shape their vision and provided strategic direction. This collaboration,
+          combined with the team’s passion and determination, allowed them to turn a personal
+          struggle into a pioneering business that will change the landscape of wound care.
           </p>
         </div>
       </section>

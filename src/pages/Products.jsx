@@ -50,7 +50,7 @@ export default function Products() {
                 boxShadow: '0 6px 18px rgba(0,0,0,0.08)'
               }}
             >
-              <img src="/products/beemashield.png" alt="BeemaShield product" style={{
+              <img src="/products/hydroshield.png" alt="HydroShield product" style={{
                 width: '110%',
                 height: '400px',
                 objectFit: 'cover',

@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer className={isHomePage ? 'footer home-footer' : 'footer'}>
       <p>&copy; {currentYear} NovaHealZ. All rights reserved.</p>
-      <p>Contact: <a href="mailto:info@healtech.com">info@novahealz.com</a></p>
+      {/* <p>Contact: <a href="mailto:info@healtech.com">info@novahealz.com</a></p> */}
     </footer>
   );
 }
