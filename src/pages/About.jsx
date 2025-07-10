@@ -182,7 +182,7 @@ export default function About() {
           }}>
             {[
               { img: '/team/akash.jpeg', name: 'Akash Pande Rajeshkumar', role: 'Founder & Chief Executive Officer and Head of Ethics & Compliance' },
-              { img: '/team/narmadha.jpg', name: 'Narmadha M', role: 'Co-Founder of NovaHealz' },
+              { img: '/team/narmadha.jpg', name: 'Narmadha M', role: 'Co-Founder & Cheif Scientific Officer' },
               { img: '/team/mrinal.jpeg', name: 'Mrinal Tripathi', role: 'Chief Operations Officer & Head of Sustainability' },
               { img: '/team/thendral.jpeg', name: 'Elanthendral Gopalsami', role: 'Chief Finance & Human Resource Officer ' },
               { img: '/team/aayushi.jpeg', name: 'Aayushi Kasture', role: 'Chief Procurement and Supply Chain Officer' },
