@@ -6,8 +6,9 @@ export default function Header() {
 
   return (
     <header className="header">
-      <a href="/" className="logo">
-        <img src="/logo/logo.jpg" alt="Logo" style={{ height: '40px' }} /> NovaHealZ
+      <a href="/" className="logo" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', textDecoration: 'none' }}>
+        <img src="/logo/logo.jpg" alt="NovaHealz Logo" style={{ height: '40px' }} />
+        <span style={{ fontSize: '1.5rem', fontWeight: 'bold', color: '#0066cc' }}>NovaHealZ</span>
       </a>
 
       <nav className="nav-links">
