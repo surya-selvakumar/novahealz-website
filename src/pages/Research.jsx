@@ -146,7 +146,7 @@ export default function Research() {
       </section>
 
       {/* Collaboration Note */}
-      <section style={{ background: '#ffffff', padding: '4rem 2rem', textAlign: 'center' }}>
+      {/* <section style={{ background: '#ffffff', padding: '4rem 2rem', textAlign: 'center' }}>
         <div style={{ maxWidth: '800px', margin: '0 auto' }}>
           <motion.p
             initial={{ opacity: 0 }}
@@ -157,7 +157,7 @@ export default function Research() {
             We proudly collaborate with leading medical experts and research institutions to ensure every innovation is grounded in scientific rigor and tailored to real-world patient needs.
           </motion.p>
         </div>
-      </section>
+      </section> */}
     </motion.div>
   );
 }

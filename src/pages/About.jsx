@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 const teamImages = [
   '/team/grp7.jpg',
   '/team/grp1.jpg',
+  '/team/grp8.jpeg',
   '/team/grp2.jpg',
   '/team/grp4.jpg'
 ];
@@ -88,7 +89,7 @@ export default function About() {
               style={{
                 width: '100%',
                 height: '100%',
-                objectFit: teamImages[currentImage].includes('grp7') ? 'contain' : 'cover',
+                objectFit: (teamImages[currentImage].includes('grp7') || teamImages[currentImage].includes('grp8')) ? 'contain' : 'cover',
                 borderRadius: '12px',
                 position: 'absolute',
                 top: 0,
@@ -175,19 +176,20 @@ export default function About() {
 
           <div style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(4, 1fr)',
+            gridTemplateColumns: 'repeat(3, 1fr)',
             gap: '2rem',
             alignItems: 'stretch'
           }}>
             {[
               { img: '/team/akash.jpeg', name: 'Akash Pande Rajeshkumar', role: 'Founder & Chief Executive Officer and Head of Ethics & Compliance' },
+              { img: '/team/narmadha.jpg', name: 'Narmadha M', role: 'Co-Founder of NovaHealz' },
               { img: '/team/mrinal.jpeg', name: 'Mrinal Tripathi', role: 'Chief Operations Officer & Head of Sustainability' },
               { img: '/team/thendral.jpeg', name: 'Elanthendral Gopalsami', role: 'Chief Finance & Human Resource Officer ' },
-              { img: '/team/aayushi.jpeg', name: 'Aayushi Kasture', role: 'Chief Scientific Officer' },
+              { img: '/team/aayushi.jpeg', name: 'Aayushi Kasture', role: 'Chief Procurement and Supply Chain Officer' },
               { img: '/team/leanne.jpeg', name: 'Leanne Fernandes', role: 'Chief Commercial & Global Corporate Affairs Officer ' },
               { img: '/team/sayan.jpeg', name: 'Sayan Ghosh', role: 'Chief Marketing & Business Development Officer ' },
               { img: '/team/surya.jpg', name: 'Surya Selvakumar', role: 'Chief Data & Technology Officer ' },
-              { img: '/team/neha.jpeg', name: 'Nekha M Mohan', role: 'Chief Administrative Officer' }
+              { img: '/team/neha.jpg', name: 'Nekha M Mohan', role: 'Chief Administrative Officer' }
             ].map((leader, idx) => (
               <motion.div key={idx}
                 initial={{ opacity: 0, y: 20 }}

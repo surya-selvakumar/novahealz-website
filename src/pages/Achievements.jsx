@@ -16,8 +16,8 @@ const achievements = [
     description: "CEO Akash and CCO Leanne represented NovaHealZ at the Microfinance Event 2025 in Heriot-Watt University, supported by the Scottish Government. Leanne’s 1-min pitch was highly praised!",
   },
   {
-    title: "Visionary Achievement: iBioIC",
-    description: "Coming soon.",
+    title: "Empowering Innovation: Converge Regional & National Training",
+  description: "Elanthendral, Mrinal, and Leanne proudly represented NovaHealZ at the Converge Regional and National Training sessions, fostering new strategies for growth and collaboration."
   },
 ];
 

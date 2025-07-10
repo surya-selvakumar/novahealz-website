@@ -181,7 +181,7 @@ export default function Home() {
             }} />
             <h3 style={{ color: '#003366', marginBottom: '0.5rem' }}>Research & Development</h3>
             <p style={{ fontSize: '0.95rem', color: '#555' }}>
-              Learn about the scientific research and innovation driving our therapeutic developments.
+              Learn more about the scientific research and continual innovation driving our therapeutic developments.
             </p>
             <Link to="/research" className="btn" style={{ marginTop: '1rem' }}>Our Research</Link>
           </motion.div>

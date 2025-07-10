@@ -13,6 +13,7 @@ import Investors from './pages/Investors';
 import Blog from './pages/Blog';
 import CodeOfConduct from './pages/CodeOfConduct';
 import Achievements from './pages/Achievements';
+import Contact from './pages/Contact';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           <Route path="/investors" element={<Investors />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/code-of-conduct" element={<CodeOfConduct />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </AnimatePresence>
       <Footer />
