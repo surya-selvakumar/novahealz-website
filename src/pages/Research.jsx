@@ -38,7 +38,7 @@ export default function Research() {
             transition={{ duration: 0.6 }}
             style={{ fontSize: '1rem', color: '#666', lineHeight: '1.7', textAlign: 'center' }}
           >
-            Our R&D team is relentlessly focused on developing patient-first therapies and technologies across key wound care domains. Through collaboration with healthcare leaders and institutions, we ensure that every innovation is grounded in scientific excellence and clinical relevance.
+            Our R&D team is relentlessly focused on developing patient-first therapies and technologies across key wound care domains. Through collaboration with healthcare leaders and institutions, we ensure that every innovation is grounded in scientific excellence and clinical relevance. NovaHealZ’s innovation is protected by a growing intellectual property portfolio, with five patent applications filed in India covering its hydrogel-based wound care technology.
           </motion.p>
         </div>
       </section>

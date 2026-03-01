@@ -19,6 +19,10 @@ const achievements = [
     title: "Empowering Innovation: Converge Regional & National Training",
   description: "Elanthendral, Mrinal, and Leanne proudly represented NovaHealZ at the Converge Regional and National Training sessions, fostering new strategies for growth and collaboration."
   },
+  {
+    title: "Innovation At Its Scale: Converge Kickstart Finalist",
+    description: "On 2 October 2025, NovaHealZ was represented by founder Akash Pande Rajeshkumar and Leanne Fernandes at an invitation-only celebration of university-led innovation held at Prestonfield House Hotel, Edinburgh. The event brought together leaders from the Scottish Government, academia, and industry to recognise academic founders driving research-led societal impact."
+  }
 ];
 
 export default function Achievements() {
